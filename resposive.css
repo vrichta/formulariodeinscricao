@@ -1,0 +1,88 @@
+@media (max-width: 1024px) {
+    main {
+        flex-direction: column;
+        padding: 2rem;
+        height: auto;
+        gap: 3rem;
+    }
+
+    .section-one,
+    .section-two {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 2.2rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container,
+    .container-error {
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .form,
+    .button {
+        width: 100%;
+    }
+
+    .box-promo {
+        font-size: 0.95rem;
+    }
+
+    .img-error {
+        right: 8%;
+    }
+
+    .p-error {
+        right: 5%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    body {
+        background-image: url(images/bg-intro-mobile.png);
+    }
+
+    .title {
+        font-size: 1.8rem;
+    }
+
+    .subtitle {
+        font-size: 0.95rem;
+        line-height: 1.4rem;
+    }
+
+    .container {
+        padding: 1.5rem;
+        height: 23rem;
+    }
+
+    .container-error {
+        height: 30rem;
+    }
+
+    .form,
+    .button {
+        padding: 0.8rem;
+    }
+
+    .img-error {
+        right: 10%;
+    }
+
+    .p-error {
+        right: 6.5%;
+    }
+}
